@@ -1,2 +1,2 @@
-import Items from "./components/Items";
-export default Items
+import Toggle from "./components/toggle";
+export default Toggle

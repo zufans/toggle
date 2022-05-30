@@ -1,21 +1,17 @@
 import React from "react";
-import Items from "../components/Items/items";
-//import Items from "../components/Dropdown/items"
+import Toggle  from "../components/toggle/toggle";
+
 
 export default {
-    title: "Navigation",
-    component: Items,
+    title: "ToggleToggle",
+    component: Toggle,
 }
 
-const navItemsLink = [
-    {lable:"Home", onClick:()=> console.log('home')},
-    {lable:"About", onClick:()=> console.log('home')},
-    {lable:"Contact", onClick:()=> console.log('home')}
-]
-
-
-const ItemList = (args) => <Items {...args} />;
-export const ItemOfMenu = ItemList.bind({})
-ItemOfMenu.args={
-    lable:navItemsLink
+const ToggleToggle = (args) => <Toggle {...args} />;
+export const Toggle_Toggle = ToggleToggle.bind({})
+Toggle_Toggle.args={
+    bgOn:'#20b7ff',
+    bgOff:'#555',
+    switchbg: 'linear-gradient(to top,#000, #555)',
+    width : 50
 }

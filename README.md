@@ -2,7 +2,7 @@
 <p>This is a Navigation dropdown component for react application.</p>
 
 ### Installtion
-<code>npm install @zufans/items</code>
+<code>npm install @zufans/toggle</code>
 <br>
 
 <table>
@@ -12,8 +12,23 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>itemsProps</td>
-        <td>Object</td>
-        <td>It should hold three propertys called lable (stirng) onClick (function) and href (stirng. The onClick and href propertys are optional. However the lable propertys is required </td>
+        <td>bgOn</td>
+        <td>String</td>
+        <td>This is the color of the background of the toggle when ON mode. This does not reference the switch its self.</td>
+    </tr>
+    <tr>
+        <td>bgOff</td>
+        <td>String</td>
+        <td>This is the color of the background of the toggle when OFF mode. This does not reference the switch its self.</td>
+    </tr>
+    <tr>
+        <td>switchbg</td>
+        <td>String</td>
+        <td>This is the color of toggle its self. </td>
+    </tr>
+    <tr>
+        <td>width</td>
+        <td>String</td>
+        <td>This references the width of the toggle</td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 {
-  "name": "@zufans/items",
-  "version": "1.1.1",
+  "name": "@zufans/toggle",
+  "version": "1.1.2",
   "description": "navigation-library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
